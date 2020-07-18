@@ -1,0 +1,163 @@
+body {
+  font-family: Arial;
+}
+
+.page_link {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.page_link > a, .page_link > a:hover {
+  margin-right: 20px;
+  color: #404040;
+}
+
+.fifth_letter, .third_letter, .second_letter, .sixth_letter, .first_letter, .fourth_letter {
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.first_letter, .fourth_letter {
+  color: #4285F4;
+}
+
+.second_letter, .sixth_letter {
+  color: #DB4437;
+}
+
+.third_letter {
+  color: #F4B400;
+}
+
+.fifth_letter {
+  color: #0F9D58;
+}
+
+.container {
+  margin: 100px;
+}
+
+.glass_icon {
+  color: #a6a6a6;
+}
+
+.glass_button {
+  float: 0px;
+  width: 30px;
+  height: 40px;
+  background: white;
+  color: #4285F4;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  vertical-align: top;
+  border-left: none;
+  text-align: center;
+  padding: 5px;
+  padding-right: none;
+}
+
+.glass_button:focus {
+  outline: none;
+}
+
+.form_box {
+  border: none;
+  padding-left: 10px;
+  height: 40px;
+  width: 500px;
+}
+
+.form_box:focus {
+  outline: none;
+}
+
+.img_form, .search_form {
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  height: 43px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.search_form {
+  width: 560px;
+}
+
+.img_form {
+  width: 590px;
+}
+
+#adv_search_title {
+  border-style: solid;
+  border-color: #f2f2f2;
+  border-width: 2px;
+  height: 70px;
+  color: #DB4437;
+  font-size: 19px;
+  padding-left: 35px;
+  padding-top: 19px;
+}
+
+#adv_header {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#adv_logo {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#adv_logo > span {
+  font-size: 30px;
+}
+
+.adv_form_table {
+  width: 90%;
+  font-size: 14px;
+  margin: 35px;
+}
+
+td {
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+#first_col {
+  min-width: 180px;
+  width: 180px;
+  font-size: 16px;
+}
+
+#third_col {
+  min-width: 360px;
+  width: 360px;
+  font-weight: bold;
+  padding-left: 0px;
+  font-size: 14px;
+}
+
+.field {
+  width: 100%;
+}
+
+.btn {
+  width: 130px;
+}
+
+.adv_form_table tr td:nth-child(3) {
+  padding-left: 15px;
+  font-size: 12px;
+}
+
+@media (max-width: 999px) {
+  .adv_form_table tr td:nth-child(3) {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
